@@ -1,0 +1,12 @@
+=== Topology Summary ===
+Nodes: 2, Links: 1
+ - R1<->R2 bw=1000Mbps mtu=(1500, 1500)
+
+=== Validation Issues ===
+No issues detected.
+
+=== Load & Recommendations ===
+No overutilized links detected.
+
+=== Link Utilization (fraction of capacity) ===
+ R1<->R2: 0.02

@@ -1,0 +1,9 @@
+hostname R1
+role router
+interface Gi0/0
+  ip address 10.0.0.1 255.255.255.0
+  bandwidth 1000
+  mtu 1500
+  description LINK:R2:Gi0/0
+router ospf
+  area 0
